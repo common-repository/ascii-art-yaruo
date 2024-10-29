@@ -1,0 +1,95 @@
+@font-face{
+  font-family : 'aahub_light';
+  src: local('aahub_light'),
+  url("https://fonts.aahub.org/assets/fonts/aahub_light/aahub_light.woff2") format("woff2"),
+  url("https://fonts.aahub.org/assets/fonts/aahub_light/aahub_light.woff") format("woff"),
+  url("https://fonts.aahub.org/assets/fonts/aahub_light/aahub_light.ttf") format("ttf");
+  font-weight : normal;
+  font-style : normal;
+}
+
+div.aa_contents {
+	font-size: 16px;
+	line-height: 18px;
+	font-family: 'Mona','IPA MONAPGOTHIC','MS PGothic','ＭＳ Ｐゴシック','MS Pｺﾞｼｯｸ','MS Pゴシック','aahub_light', sans-serif;
+	overflow: auto;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-shadow: none;
+}
+
+strong.aa_error {
+		color: #cc6666;
+}
+
+figure.aa_panel {
+	font-size: 16px;
+	line-height: 18px;
+	font-family: 'Mona','IPA MONAPGOTHIC','MS PGothic','ＭＳ Ｐゴシック','MS Pｺﾞｼｯｸ','MS Pゴシック','aahub_light', sans-serif;
+	overflow: auto;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-shadow: none;
+	white-space: nowrap;
+	padding: 18px;
+}
+
+figure.aa_panel:after{
+		display: block;
+		clear: both;
+		content: "";
+}
+
+div.words {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+	background-color: #fcfcfc;
+	border: 1px solid #999;
+
+	margin :18px;
+	padding: 16px;
+
+	display: table-cell;
+	vertical-align: middle;
+	float: left;
+}
+
+div.aa {
+	display: table-cell;
+	vertical-align: middle;
+	float: left;
+}
+
+div.aa_contents div.padding100 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+div.aa_contents div.padding200 {
+		width: 200px;
+	height: 100px;
+	float: left;
+}
+div.aa_contents div.padding300 {
+		width: 300px;
+	height: 100px;
+	float: left;
+}
+div.aa_contents div.padding400 {
+		width: 400px;
+	height: 100px;
+	float: left;
+}
+div.aa_contents div.padding500 {
+		width: 500px;
+	height: 100px;
+	float: left;
+}
+div.aa_contents div.padding600 {
+		width: 600px;
+	height: 100px;
+	float: left;
+}
